@@ -8,5 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <DockPanel>
+            <Button Width="100" Height="30" Command="{Binding Path=ShowNotificationCommand}">Show</Button>
+        </DockPanel>
+            
     </Grid>
 </Window>
